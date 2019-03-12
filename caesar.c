@@ -1,6 +1,8 @@
 /* caesar - takes a string and computes the 94 different
  * possible rotations of a caesar cipher. 
  * Author: retired_millenial */
+
+/* NB: this only does right-shift.  */
 #include <stdio.h>
 #include <string.h>
 #define ARG_MAX 262144
